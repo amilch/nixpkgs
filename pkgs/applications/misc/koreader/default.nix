@@ -14,7 +14,7 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "koreader";
-  version = "2023.04";
+  version = "2023.10";
 
 
   src = if stdenv.isAarch64 then fetchurl {
