@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
     sha256 = "sha256-uuspjno0750hQMIB5HEhbV63wCna2izKOHEGIg/X0bU=";
   } else fetchurl {
     url = "https://github.com/koreader/koreader/releases/download/v${version}/koreader-${version}-amd64.deb";
-    sha256 = "sha256-tRUeRB1+UcWT49dchN0YDvd0L5n1YRdtMSFc8yy6m5o=";
+    sha256 = "sha256-tEzHQ0/rbjoWqfSuIatY95pYjWNFwBeBABDNO+b6qSU=";
   };
 
   src_repo = fetchFromGitHub {
